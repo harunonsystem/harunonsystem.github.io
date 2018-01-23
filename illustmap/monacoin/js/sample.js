@@ -39,139 +39,139 @@
                     //images screen
                     var img =new Image();
                     if (node.name == "monacoin"){
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monacoin.png";
+                        img.src = "images/monacoin.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2 , w, w);
                     }
                     else if (node.name == "monya") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monya.png";
+                        img.src = "images/monya.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "twitter") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/aoitori.png";
+                        img.src = "images/aoitori.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "youtube") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/Youtube.png";
+                        img.src = "images/Youtube.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "nekomasu") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/nekomasu.png";
+                        img.src = "images/nekomasu.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "monacoinchan") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monacoinchan.png";
+                        img.src = "images/monacoinchan.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "ecservices") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/cart.png";
+                        img.src = "images/cart.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "monazon") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monazon.png";
+                        img.src = "images/monazon.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 300, 110);
                     }
                     else if (node.name == "monaoku") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monaoku.png";
+                        img.src = "images/monaoku.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 220, 100);
                     }
                     else if (node.name == "tradeplaces") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tradeplaces.png";
+                        img.src = "images/tradeplaces.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "bitbank") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/bitbank.png";
+                        img.src = "images/bitbank.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "zaif") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/zaif.png";
+                        img.src = "images/zaif.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "bitflyer") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/bitflyer.png";
+                        img.src = "images/bitflyer.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
                     }
                     else if (node.name == "cryptobridge") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/cryptobjige.png";
+                        img.src = "images/cryptobjige.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "monappy") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monappy.png";
+                        img.src = "images/monappy.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 200, 200);
                     }
                     else if (node.name == "wallet") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/wallet.png";
+                        img.src = "images/wallet.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "map") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/map_pointa.png";
+                        img.src = "images/map_pointa.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "monamap") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monamap.png";
+                        img.src = "images/monamap.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "monagame") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/game.png";
+                        img.src = "images/game.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "muratamona") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/muratamona.png";
+                        img.src = "images/muratamona.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 280, 180);
                     }
                     else if (node.name == "plicy") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/plicy.png";
+                        img.src = "images/plicy.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 200, 50);
                     }
                     else if (node.name == "eccservices") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/cart.png";
+                        img.src = "images/cart.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }                         
                     else if (node.name == "tipservices") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipservices.png";
+                        img.src = "images/tipservices.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "tipmusic") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipmusic.png";
+                        img.src = "images/tipmusic.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 300, 50);
                     }
                     else if (node.name == "tipphoto") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipphoto.png";
+                        img.src = "images/tipphoto.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 300, 50);
                     }
                     else if (node.name == "tipvideo") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipvideo.png";
+                        img.src = "images/tipvideo.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 300, 180);
                     }
                     else if (node.name == "tipnovel") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipnovel.png";
+                        img.src = "images/tipnovel.png";
                         ctx.drawImage(img, pt.x - w /2, pt.y - w /2, 300, 180);
                     }
                     else if (node.name == "askmona") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/askmona.png";
+                        img.src = "images/askmona.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 300, 180);
                     }
                     else if (node.name == "chromeattachments") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/chrome.png";
+                        img.src = "images/chrome.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
                     }
                     else if (node.name == "monyachrome") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monya.png";
+                        img.src = "images/monya.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "tipassist") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipassist.png";
+                        img.src = "images/tipassist.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "monalogin") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monalogin.png";
+                        img.src = "images/monalogin.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 80);
                     }
                     else if (node.name == "monaparty") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monaparty.png";
+                        img.src = "images/monaparty.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
                     }
                     else if (node.name == "monacard") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monacard.png";
+                        img.src = "images/monacard.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
                     }
                     /*addnode color 
