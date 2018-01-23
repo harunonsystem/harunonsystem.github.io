@@ -172,6 +172,7 @@
                     }
                     else if (node.name == "monacard") {
                         img.src = "images/monacard.png";
+                        link.href = "https://twitter.com/monacard";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
                     }
                     /*addnode color 
