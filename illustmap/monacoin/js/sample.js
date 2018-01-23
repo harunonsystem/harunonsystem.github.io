@@ -29,7 +29,7 @@
                 var nodeBoxes = {}
                 particleSystem.eachNode(function (node, pt) {
                     var label = node.name || ""
-                    var w = ctx.measureText("" + label).width + 20
+                    var w = ctx.measureText("" + label).width + 30
                     if (!("" + label).match(/^[ \t]*$/)) {
                         pt.x = Math.floor(pt.x)
                         pt.y = Math.floor(pt.y)
@@ -40,7 +40,7 @@
                     var img =new Image();
                     if (node.name == "monacoin"){
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monacoin.png";
-                        ctx.drawImage(img, pt.x - w / 3, pt.y - w / 3 , 500, 500);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2 , 100, 100);
                     }
                     else if (node.name == "monya") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monya.png";
