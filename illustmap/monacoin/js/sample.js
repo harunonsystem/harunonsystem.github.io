@@ -40,7 +40,7 @@
                     var img =new Image();
                     if (node.name == "monacoin"){
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monacoin.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2 , 200, 200);
+                        ctx.drawImage(img, pt.x - w / 3, pt.y - w / 3 , 500, 500);
                     }
                     else if (node.name == "monya") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monya.png";
@@ -79,7 +79,7 @@
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "bitbank") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/bitbank.jpg";
+                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/bitbank.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "zaif") {
@@ -87,7 +87,7 @@
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "bitflyer") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/bitflyer.jpg";
+                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/bitflyer.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
                     }
                     else if (node.name == "cryptobridge") {
@@ -167,12 +167,12 @@
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 80);
                     }
                     else if (node.name == "monaparty") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monaparty.jpg";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
+                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monaparty.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
                     }
                     else if (node.name == "monacard") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monacard.jpg";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
+                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monacard.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
                     }
                     /*addnode color 
                     if (node.data.who == "mona") {
