@@ -40,7 +40,7 @@
                     var img =new Image();
                     if (node.name == "monacoin"){
                         img.src = "images/monacoin.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2 , w, w);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2 , 100, 100);
                     }
                     else if (node.name == "monya") {
                         img.src = "images/monya.png";
@@ -48,7 +48,7 @@
                     }
                     else if (node.name == "twitter") {
                         img.src = "images/aoitori.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
+                        ctx.drawImage(img, pt.x - w / 1.5, pt.y - w / 1.5, 90, 90);
                     }
                     else if (node.name == "youtube") {
                         img.src = "images/Youtube.png";
@@ -64,7 +64,7 @@
                     }
                     else if (node.name == "ecservices") {
                         img.src = "images/cart.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
                     }
                     else if (node.name == "monazon") {
                         img.src = "images/monazon.png";
@@ -84,7 +84,7 @@
                     }
                     else if (node.name == "zaif") {
                         img.src = "images/zaif.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);
                     }
                     else if (node.name == "bitflyer") {
                         img.src = "images/bitflyer.png";
