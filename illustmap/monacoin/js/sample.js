@@ -40,7 +40,7 @@
                     var img =new Image();
                     if (node.name == "monacoin"){
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monacoin.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2 , 100, 100);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2 , w, w);
                     }
                     else if (node.name == "monya") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monya.png";
