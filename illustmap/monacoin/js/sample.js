@@ -29,7 +29,7 @@
                 var nodeBoxes = {}
                 particleSystem.eachNode(function (node, pt) {
                     var label = node.name || ""
-                    var w = ctx.measureText("" + label).width + 30
+                    var w = ctx.measureText("" + label).width + 20
                     if (!("" + label).match(/^[ \t]*$/)) {
                         pt.x = Math.floor(pt.x)
                         pt.y = Math.floor(pt.y)
