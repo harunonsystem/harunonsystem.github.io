@@ -95,7 +95,7 @@
                     }
                     else if (node.name == "monappy") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monappy.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 200, 200);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 190, 50);
                     }
                     else if (node.name == "wallet") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/wallet.png";
@@ -127,23 +127,23 @@
                     }                         
                     else if (node.name == "tipmusic") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipmusic.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 300, 50);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 220, 50);
                     }
                     else if (node.name == "tipphoto") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipphoto.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 300, 50);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 50);
                     }
                     else if (node.name == "tipvideo") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipvideo.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 300, 180);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2,150, 90);
                     }
                     else if (node.name == "tipnovel") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipnovel.png";
-                        ctx.drawImage(img, pt.x - w /2, pt.y - w /2, 300, 180);
+                        ctx.drawImage(img, pt.x - w /2, pt.y - w /2, 150, 90);
                     }
                     else if (node.name == "askmona") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/askmona.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 300, 180);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 50);
                     }
                     else if (node.name == "chromeattachments") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/chrome.png";
