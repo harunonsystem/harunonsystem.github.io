@@ -40,15 +40,18 @@
                     var img =new Image();
                     if (node.name == "monacoin"){
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monacoin.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2 , 100, 100);
+                            ctx.drawImage(img, pt.x - w / 1.2, pt.y - w / 1.2, 200, 200);
+                        
                     }
                     else if (node.name == "monya") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monya.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
+                        
                     }
                     else if (node.name == "twitter") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/aoitori.png";
-                        ctx.drawImage(img, pt.x - w / 1.5, pt.y - w / 1.5, 90, 90);
+                            ctx.drawImage(img, pt.x - w / 1.5, pt.y - w / 1.5, 70, 70);
+                        
                     }
                     else if (node.name == "youtube") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/Youtube.png";
@@ -56,11 +59,11 @@
                     }
                     else if (node.name == "nekomasu") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/nekomasu.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 120, 120);
                     }
                     else if (node.name == "monacoinchan") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monacoinchan.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 120, 120);
                     }
                     else if (node.name == "ecservices") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/cart.png";
@@ -73,10 +76,6 @@
                     else if (node.name == "monaoku") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monaoku.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 220, 100);
-                    }
-                    else if (node.name == "tradeplaces") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tradeplaces.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "bitbank") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/bitbank.png";
@@ -100,7 +99,7 @@
                     }
                     else if (node.name == "wallet") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/wallet.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 70, 70);
                     }
                     else if (node.name == "map") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/map_pointa.png";
@@ -108,7 +107,7 @@
                     }
                     else if (node.name == "monamap") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monamap.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
                     }
                     else if (node.name == "monagame") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/game.png";
@@ -126,10 +125,6 @@
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/cart.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }                         
-                    else if (node.name == "tipservices") {
-                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipservices.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
-                    }
                     else if (node.name == "tipmusic") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipmusic.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 300, 50);
@@ -156,7 +151,7 @@
                     }
                     else if (node.name == "monyachrome") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monya.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
                     }
                     else if (node.name == "tipassist") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipassist.png";
@@ -172,18 +167,22 @@
                     }
                     else if (node.name == "monacard") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monacard.png";
-                        link.href = "https://twitter.com/_monacard";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
+                    }
+                    else if (node.data.who == "tradeplaces") {
+                        ctx.fillStyle = "rgba(0,0,255,0)"
+                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
+                    }
+                    else if (node.data.who == "tipservices") {
+                        ctx.fillStyle = "rgba(0,0,255,0)"
+                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
                     }
                     /*addnode color 
                     if (node.data.url == "mona") {
                         ctx.fillStyle = "rgba(150,5,10,0.666)"
                         gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
                     }
-                    else if (node.data.url == "tradeplace") {
-                        ctx.fillStyle = "rgba(0,20,150,0.666)"
-                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
-                    }
+ 
                     else if (node.data.url == "wallet") {
                         ctx.fillStyle = "rgba(246,168,37,1)"
                         gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
@@ -193,7 +192,7 @@
                         gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
                     }
                     else if (node.data.url == "tipservice") {
-                        ctx.fillStyle = "rgba(147,193,238,1)"
+                        ctx.fillStyle = "rgba(0,0,255,0)"
                          gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
                     }
                     else if (node.data.url == "youtube") {
@@ -257,49 +256,103 @@
 
             initMouseHandling: function () {
                 var dragged = null;
+                var isClick = null;
                 var handler = {
+
                     oneclicked: function (e) {
+                        if (isClick) {
+                            var pos = $(canvas).offset();
+                            pos = arbor.Point(e.pageX - pos.left, e.pageY - pos.top)
+                            var p = particleSystem.fromScreen(pos)
+                            dragged = particleSystem.nearest(pos);
+
+                            let DISTANCE = 0.5;
+                            if (Math.pow(dragged.node.p.x - p.x, 2) + Math.pow(dragged.node.p.y - p.y, 2) < DISTANCE * DISTANCE) {
+                                if (dragged.node.data.url) {
+                                    console.log(dragged.node.data.url);
+                                    window.open(dragged.node.data.url);
+                                }
+
+                            }
+
+                            if (dragged && dragged.node !== null) {
+                                dragged.node.fixed = true
+                                return;
+                            }
+                        }
+                        isClick = true;
+
+                          return false
+                    },
+
+                    clicked: function (e) {
                         var pos = $(canvas).offset();
                         _mouseP = arbor.Point(e.pageX - pos.left, e.pageY - pos.top)
-                        var p = particleSystem.fromScreen(pos)
-                        dragged = particleSystem.nearest(pos);
+                        dragged = particleSystem.nearest(_mouseP);
 
                         if (dragged && dragged.node !== null) {
-                            return;
+                            dragged.node.fixed = true
                         }
-                        let DISTANCE = 2;
-                        if (Math.pow(dragged.node.p.x - p.x, 2) + Math.pow(dragged.node.p.y - p.y, 2) < DISTANCE * DISTANCE) {
-                            console.log(dragged.node.data.url);
-                            window.open(dragged.node.data.url);
-                        }
+                        isClick = false;
+
+                        $(canvas).bind('mousemove', handler.dragged)
+                        $(window).bind('mouseup', handler.dropped)
 
                         return false
                     },
 
                     mousemove: function (e) {
-                        var pos = $(canvas}.offset();
-                    pos = arbor.Point(e.pageX - pos.left, e.pageY - pos.top)
+                        var pos = $(canvas).offset();
+                        pos = arbor.Point(e.pageX - pos.left, e.pageY - pos.top)
                         var p = particleSystem.fromScreen(pos)
                         dragged = particleSystem.nearest(pos);
 
-                        if(dragged && dragged.node !== null) {
+                        if (!dragged && dragged.node == null){
                             document.body.style.cursor = "";
                             return;
                         }
-                        let DISTANCE = 2;
-                        if(Math.pow(dragged.node.p.x - p.x, 2) + Math.pow(dragged.node.p.y - p.y, 2) < DISTANCE * DISTANCE) {
-                            if (Math.pow(dragged.node.p.x - p.x, 2) + Math.pow(dragged.node.p.y - p.y, 2) < DISTANCE * DISTANCE) {
+
+                        let DISTANCE = 0.5;
+                        if (Math.pow(dragged.node.p.x - p.x, 2) + Math.pow(dragged.node.p.y - p.y, 2) < DISTANCE * DISTANCE) {
                                 document.body.style.cursor = "pointer";
                             } else {
                                 document.body.style.cursor = "";
-                            }
-                            return false
-                        },
-                }
-        $(canvas).mousedown(handler.clicked);
-        $(canvas).click(handler.oneclicked);
-        $(canvas).mousemove(handler.mousemove);
+                        }
+                        isClick = false;
 
+                            return false
+                    },
+
+                    dragged: function (e) {
+                        var pos = $(canvas).offset();
+                        var s = arbor.Point(e.pageX - pos.left, e.pageY - pos.top)
+                        if (dragged && dragged.node !== null) {
+                            var p = particleSystem.fromScreen(s)
+                            dragged.node.p = p
+                        }
+                        isClick = false;
+
+                            return false
+                    },
+
+                    dropped: function (e) {
+                        if (dragged === null || dragged.node === undefined) return
+                        if (dragged.node !== null) dragged.node.fixed = false
+                        dragged.node.tempMass = 1000
+                        dragged = null
+                        $(canvas).unbind('mousemove', handler.dragged)
+                        $(window).unbind('mouseup', handler.dropped)
+                        _mouseP = null
+
+                        isClick = false;
+
+                            return false
+                    }
+
+                    }
+                $(canvas).mousedown(handler.clicked);
+                $(canvas).click(handler.oneclicked);
+                $(canvas).mousemove(handler.mousemove);
             },
 
         }
@@ -315,43 +368,43 @@
         sys.addNode('bitflyer', { url: "https://bitflyer.jp/ja/" });
         sys.addNode('zaif', { url: "https://zaif.jp/" });
         sys.addNode('cryptobridge', { url: "https://crypto-bridge.org/" });
-        sys.addNode('tradeplaces', { url: "tradeplace" });
+        sys.addNode('tradeplaces', {who: "tradeplaces"});
 
         sys.addNode('askmona', { url: 'https://askmona.org' });
 
         sys.addNode('monappy', { url: 'https://monappy.jp' });
 
-        sys.addNode('map', { url: 'map' });
+        sys.addNode('map', {});
         sys.addNode('monamap', { url: 'https://www.google.com/maps/d/viewer?mid=13dW7cDC7eKC-OYqf8xhTTejkooId-ueF&ll=35.06939124071531%2C135.444886&z=5' });
 
-        sys.addNode('twitter', { url: 'twitter' });
+        sys.addNode('twitter', {});
         sys.addNode('monacoinchan', { url: 'https://twitter.com/tipmona' });
 
-        sys.addNode('youtube', { url: 'nekomasu' });
+        sys.addNode('youtube', {});
         sys.addNode('nekomasu', { url: 'https://www.youtube.com/channel/UCt8tmsv8kL9Nc1sxvCo9j4Q' });
 
-        sys.addNode('muratamona', { url: "game" });
+        sys.addNode('muratamona', { url: "http://murata-mona.info/" });
         sys.addNode('plicy', { url: "https://plicy.net/" });
-        sys.addNode('monagame', { url: "http://murata-mona.info/" });
+        sys.addNode('monagame', {});
 
         sys.addNode('monaparty', { url: "https://wallet.monaparty.me/#" });
         sys.addNode('monacard', { url: "https://card.mona.jp" });
         sys.addNode('monalogin', { url: "https://mona-login.com/" });
 
         sys.addNode('monya', { url: "https://missmonacoin.github.io/monya/wallet/" });
-        sys.addNode('wallet', { url: "wallet" });
+        sys.addNode('wallet', {});
 
-        sys.addNode('ecservices', { url: "ec" });
+        sys.addNode('ecservices', {});
         sys.addNode('monazon', { url: "https://monazon.jp" });
         sys.addNode('monaoku', { url: "https://monaoku.xyz/" });
 
-        sys.addNode('tipservices', { url: "tipservice" });
+        sys.addNode('tipservices', {who:"tipservices"});
         sys.addNode('tipmusic', { url: "http://retoruto.php.xdomain.jp/" });
         sys.addNode('tipvideo', { url: "https://www.tip-video.net/index.php" });
         sys.addNode('tipphoto', { url: "http://tipphoto.takutyamu.net/" });
         sys.addNode('tipnovel', { url: "https://tipnovel.taillook.tech/" });
 
-        sys.addNode('chromeattachments', { url: "chromeattachement" });
+        sys.addNode('chromeattachments', {});
         sys.addNode('monyachrome', { url: "https://chrome.google.com/webstore/detail/%E3%82%82%E3%81%AB%E3%82%83-monacoin-bitzeny-wall/lgiengglndmdhgdbdcknhgjnbefhnkio/reviews" });
         sys.addNode('tipassist', { url: "https://chrome.google.com/webstore/detail/tipassist/jheabpiaknlkageplpdbpggnjkikipcf?hl=ja" });
 
