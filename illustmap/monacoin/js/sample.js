@@ -13,7 +13,7 @@
                 particleSystem.screenPadding(80)
                 particleSystem.eachNode(function(node,pt){
                 	if (node.data.url) {
-                		node.data.img = newImage();
+                		node.data.img = new Image();
                 		node.data.img.src = node.data.img_url;
                 	}
                 });
@@ -34,9 +34,9 @@
 
                 var nodeBoxes = {}
                 particleSystem.eachNode(function (node, pt) {
-                	if (node.data.img_url) {
-                		node.data.img = newImage();
-                		node.data.img.src = node.data.img_url;
+                	if (node.data.url) {
+                		node.data.img = new Image();
+                		node.data.img.src = node.data.url;
                 	};
                     var label = node.name || ""
                     var w = ctx.measureText("" + label).width + 20
@@ -357,7 +357,7 @@
                     }
 
                     }
-                    
+
                 $(canvas).mousedown(handler.clicked);
                 $(canvas).click(handler.oneclicked);
                 $(canvas).mousemove(handler.mousemove);
