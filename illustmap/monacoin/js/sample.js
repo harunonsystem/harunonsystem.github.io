@@ -11,6 +11,12 @@
                 particleSystem = system
                 particleSystem.screenSize(canvas.width, canvas.height)
                 particleSystem.screenPadding(80)
+                particleSystem.eachNode(function(node,pt){
+                	if (node.data.url) {
+                		node.data.img = newImage();
+                		node.data.img.src = node.data.img_url;
+                	}
+                });
                 that.initMouseHandling()
             },
             redraw: function () {
@@ -28,6 +34,10 @@
 
                 var nodeBoxes = {}
                 particleSystem.eachNode(function (node, pt) {
+                	if (node.data.img_url) {
+                		node.data.img = newImage();
+                		node.data.img.src = node.data.img_url;
+                	};
                     var label = node.name || ""
                     var w = ctx.measureText("" + label).width + 20
                     if (!("" + label).match(/^[ \t]*$/)) {
@@ -37,7 +47,7 @@
                         label = null
                     }
                     //images screen
-                    var img =new Image();
+                    var img = new Image();
                     if (node.name == "monacoin"){
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monacoin.png";
                             ctx.drawImage(img, pt.x - w / 0.7, pt.y - w / 0.7, 200, 200);
@@ -260,18 +270,18 @@
                 var handler = {
 
                     oneclicked: function (e) {
-                        if (isClick) {
+                       if (isClick) {
                             var pos = $(canvas).offset();
                             pos = arbor.Point(e.pageX - pos.left, e.pageY - pos.top)
                             var p = particleSystem.fromScreen(pos)
                             dragged = particleSystem.nearest(pos);
 
-                            let DISTANCE = 0.5;
+                            let DISTANCE = 1;
                             if (Math.pow(dragged.node.p.x - p.x, 2) + Math.pow(dragged.node.p.y - p.y, 2) < DISTANCE * DISTANCE) {
                                 if (dragged.node.data.url) {
                                     console.log(dragged.node.data.url);
                                     window.open(dragged.node.data.url);
-                                }
+                               }
 
                             }
 
@@ -280,11 +290,10 @@
                                 return;
                             }
                         }
-                        isClick = true;
-
+                           isClick = true;
+                
                           return false
                     },
-
                     clicked: function (e) {
                         var pos = $(canvas).offset();
                         _mouseP = arbor.Point(e.pageX - pos.left, e.pageY - pos.top)
@@ -293,7 +302,7 @@
                         if (dragged && dragged.node !== null) {
                             dragged.node.fixed = true
                         }
-                        isClick = false;
+                        isClick = true;
 
                         $(canvas).bind('mousemove', handler.dragged)
                         $(window).bind('mouseup', handler.dropped)
@@ -344,12 +353,11 @@
                         $(window).unbind('mouseup', handler.dropped)
                         _mouseP = null
 
-                        isClick = false;
-
                             return false
                     }
 
                     }
+                    
                 $(canvas).mousedown(handler.clicked);
                 $(canvas).click(handler.oneclicked);
                 $(canvas).mousemove(handler.mousemove);
