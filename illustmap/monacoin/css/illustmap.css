@@ -3,7 +3,7 @@
 	max-width: 		520px;
 	height:			auto;
 	overflow:		hidden;
-	margin:			10px 10px 10px 10px;
+	margin:			0px 0px 10px ;
 	position:		relative;	/* 相対位置指定 */
 }
 .illustmap .caption {
@@ -13,6 +13,9 @@
 	text-align: 		center;
 	padding-top:		80px;
 	color:			#fff;
+}
+.illust .img{
+	width: 100%;
 }
 .illustmap .mask {
 	width:			100%;
