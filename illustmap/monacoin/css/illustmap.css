@@ -25,9 +25,6 @@
 	-webkit-transition:	all 0.2s ease;
 	transition:		all 0.2s ease;
 }
-.illstmap.mask img {
--webkit-mask-image:url(https://harunonsystem.github.io/illustmap/monacoin/images/map.png);
-}
 .illustmap:hover .mask {
 	opacity:		1;	/* マスクを表示する */
 }
