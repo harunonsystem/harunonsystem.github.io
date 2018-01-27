@@ -1,8 +1,8 @@
 .illustmap {
-	width:			280px;
-	height:			188px;
+	width:			100%;
+	height:			auto;
 	overflow:		hidden;
-	margin:			10px 8px 10px 16px;
+	margin:			10px;
 	position:		relative;	/* 相対位置指定 */
 }
 .illustmap .caption {
