@@ -36,7 +36,7 @@
                 particleSystem.eachNode(function (node, pt) {
                 	if (node.data.url) {
                 		node.data.img = new Image();
-                		node.data.img.src = node.data.url;
+                //		node.data.img.src = node.data.url;
                 	}
                     var label = node.name || ""
                     var w = ctx.measureText("" + label).width + 20
