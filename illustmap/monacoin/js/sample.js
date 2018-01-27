@@ -37,7 +37,7 @@
                 	if (node.data.url) {
                 		node.data.img = new Image();
                 		node.data.img.src = node.data.url;
-                	};
+                	}
                     var label = node.name || ""
                     var w = ctx.measureText("" + label).width + 20
                     if (!("" + label).match(/^[ \t]*$/)) {
@@ -139,10 +139,10 @@
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipmusic.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 220, 50);
                     }
-                    else if (node.name == "tipphoto") {
+                  /*  else if (node.name == "tipphoto") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipphoto.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 50);
-                    }
+                    }*/
                     else if (node.name == "tipvideo") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipvideo.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2,150, 90);
@@ -283,7 +283,7 @@
                                     window.open(dragged.node.data.url);
                                }
 
-                            }
+                            };
 
                             if (dragged && dragged.node !== null) {
                                 dragged.node.fixed = true
@@ -321,7 +321,7 @@
                             return;
                         }
 
-                        let DISTANCE = 0.5;
+                        let DISTANCE = 1;
                         if (Math.pow(dragged.node.p.x - p.x, 2) + Math.pow(dragged.node.p.y - p.y, 2) < DISTANCE * DISTANCE) {
                                 document.body.style.cursor = "pointer";
                             } else {
@@ -339,6 +339,7 @@
                             var p = particleSystem.fromScreen(s)
                             dragged.node.p = p
                         }
+
                         isClick = false;
 
                             return false
@@ -364,6 +365,7 @@
             },
 
         }
+
         return that
     }
 
@@ -409,7 +411,7 @@
         sys.addNode('tipservices', {who:"tipservices"});
         sys.addNode('tipmusic', { url: "http://retoruto.php.xdomain.jp/" });
         sys.addNode('tipvideo', { url: "https://www.tip-video.net/index.php" });
-        sys.addNode('tipphoto', { url: "http://tipphoto.takutyamu.net/" });
+      //  sys.addNode('tipphoto', { url: "http://tipphoto.takutyamu.net/" });
         sys.addNode('tipnovel', { url: "https://tipnovel.taillook.tech/" });
 
         sys.addNode('chromeattachments', {});
@@ -430,7 +432,7 @@
 
         sys.addEdge('monacoin', 'tipservices');
         sys.addEdge('tipservices', 'tipmusic');
-        sys.addEdge('tipservices', 'tipphoto');
+   //     sys.addEdge('tipservices', 'tipphoto');
         sys.addEdge('tipservices', 'tipnovel');
         sys.addEdge('tipservices', 'tipvideo');
 
