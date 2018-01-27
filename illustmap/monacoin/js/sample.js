@@ -139,10 +139,10 @@
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipmusic.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 220, 50);
                     }
-                  /*  else if (node.name == "tipphoto") {
+                    else if (node.name == "tipphoto") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipphoto.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 50);
-                    }*/
+                    }
                     else if (node.name == "tipvideo") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/tipvideo.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2,150, 90);
@@ -411,7 +411,7 @@
         sys.addNode('tipservices', {who:"tipservices"});
         sys.addNode('tipmusic', { url: "http://retoruto.php.xdomain.jp/" });
         sys.addNode('tipvideo', { url: "https://www.tip-video.net/index.php" });
-      //  sys.addNode('tipphoto', { url: "http://tipphoto.takutyamu.net/" });
+        sys.addNode('tipphoto', { url: "http://tipphoto.takutyamu.net/" });
         sys.addNode('tipnovel', { url: "https://tipnovel.taillook.tech/" });
 
         sys.addNode('chromeattachments', {});
@@ -432,7 +432,7 @@
 
         sys.addEdge('monacoin', 'tipservices');
         sys.addEdge('tipservices', 'tipmusic');
-   //     sys.addEdge('tipservices', 'tipphoto');
+        sys.addEdge('tipservices', 'tipphoto');
         sys.addEdge('tipservices', 'tipnovel');
         sys.addEdge('tipservices', 'tipvideo');
 
