@@ -179,6 +179,22 @@
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monacard.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
                     }
+                    else if (node.name == "monawallet") {
+                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monawallet.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
+                    }
+                    else if (node.name == "pan") {
+                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/pan.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
+                    }
+                    else if (node.name == "ask_chrome") {
+                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/ask_chrome.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
+                    }
+                    else if (node.name == "monabako") {
+                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monabako.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
+                    }
                     else if (node.data.who == "tradeplaces") {
                         ctx.fillStyle = "rgba(0,0,255,0)"
                         gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
@@ -187,64 +203,7 @@
                         ctx.fillStyle = "rgba(0,0,255,0)"
                         gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
                     }
-                    /*addnode color 
-                    if (node.data.url == "mona") {
-                        ctx.fillStyle = "rgba(150,5,10,0.666)"
-                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
-                    }
- 
-                    else if (node.data.url == "wallet") {
-                        ctx.fillStyle = "rgba(246,168,37,1)"
-                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
-                    }
-                    else if (node.data.url == "ec") {
-                        ctx.fillStyle = "rgba(168,122,255,1)"
-                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
-                    }
-                    else if (node.data.url == "tipservice") {
-                        ctx.fillStyle = "rgba(0,0,255,0)"
-                         gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
-                    }
-                    else if (node.data.url == "youtube") {
-                        ctx.fillStyle = "rgba(246,35,0,1)"
-                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
-                    }
-                    else if (node.data.url == "twitter") {
-                        ctx.fillStyle = "rgba(0,183,255,1)"
-                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
-                    }
-                    else if (node.data.url == "monacoinchan") {
-                        ctx.fillStyle = "rgba(0,183,255,1)"
-                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
-                    }
-                    else if (node.data.url == "tradeplaces") {
-                        ctx.fillStyle = "rgba(0,20,150,0.666)"
-                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
-                    }
-                    else if (node.data.url == "askmona") {
-                        ctx.fillStyle = "rgba(0,204,35,1)"
-                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
-                    }
-                    else if (node.data.url == "nekomasu") {
-                        ctx.fillStyle = "rgba(246,35,0,1)"
-                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
-                    }
-                    else if (node.data.url == "game") {
-                        ctx.fillStyle = "rgba(0,132,255,1)"
-                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
-                    }                        
-                    else if (node.data.url == "chromeattachement") {
-                        ctx.fillStyle = "rgba(0,112,255,1)"
-                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
-                    }   
-                    else if (node.data.url == "map") {
-                        ctx.fillStyle = "rgba(47,144,25,1)"
-                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
-                    }   
-                    else if (node.data.url == "monappy") {
-                        ctx.fillStyle = "rgba(231,215,39,1)"
-                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
-                    }*/   
+                    
                     else {
                         ctx.fillStyle = "rgba(0,0,0,0.666)"
                         gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
@@ -384,6 +343,8 @@
 
         sys.addNode('monappy', { url: 'https://monappy.jp' });
 
+        sys.addNode('monabako', {url: 'https://monabako.com/#/top'});
+
         sys.addNode('map', {});
         sys.addNode('monamap', { url: 'https://www.google.com/maps/d/viewer?mid=13dW7cDC7eKC-OYqf8xhTTejkooId-ueF&ll=35.06939124071531%2C135.444886&z=5' });
 
@@ -401,8 +362,10 @@
         sys.addNode('monacard', { url: "https://card.mona.jp" });
         sys.addNode('monalogin', { url: "https://mona-login.com/" });
 
-        sys.addNode('monya', { url: "https://missmonacoin.github.io/monya/wallet/" });
-        sys.addNode('wallet', {});
+        sys.addNode('monya', { url: "https://monya-wallet.github.io/" });
+        sys.addNode('wallet',);
+        sys.addNode('pan', {url: "https://www.panwallet.com/"});
+        sys.addNode('monawallet', {url: "http://monawallet.net/"});
 
         sys.addNode('ecservices', {});
         sys.addNode('monazon', { url: "https://monazon.jp" });
@@ -417,9 +380,12 @@
         sys.addNode('chromeattachments', {});
         sys.addNode('monyachrome', { url: "https://chrome.google.com/webstore/detail/%E3%82%82%E3%81%AB%E3%82%83-monacoin-bitzeny-wall/lgiengglndmdhgdbdcknhgjnbefhnkio/reviews" });
         sys.addNode('tipassist', { url: "https://chrome.google.com/webstore/detail/tipassist/jheabpiaknlkageplpdbpggnjkikipcf?hl=ja" });
+        sys.addNode('ask_chrome', { url: "https://chrome.google.com/webstore/detail/askmona%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8%E3%81%A0%E3%81%91%E6%8B%A1%E5%BC%B5/ajiponifkpjacfebkgechpamcojeiake" });
 
         sys.addEdge('monacoin', 'wallet');
         sys.addEdge('wallet', 'monya');
+        sys.addEdge('wallet', 'monawallet');
+        sys.addEdge('wallet', 'pan');
 
         sys.addEdge('monacoin', 'twitter');
         sys.addEdge('twitter', 'monacoinchan');
@@ -451,6 +417,8 @@
 
         sys.addEdge('monacoin', 'askmona');
 
+        sys.addEdge('monacoin', 'monabako');
+
         sys.addEdge('monacoin', 'ecservices');
         sys.addEdge('ecservices', 'monaoku');
         sys.addEdge('ecservices', 'monazon');
@@ -461,6 +429,7 @@
         sys.addEdge('monacoin', 'chromeattachments');
         sys.addEdge('chromeattachments', 'monyachrome');
         sys.addEdge('chromeattachments', 'tipassist');
+        sys.addEdge('chromeattachments', 'ask_chrome');
 
     })
 
