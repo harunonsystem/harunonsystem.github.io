@@ -50,18 +50,11 @@
                     var img = new Image();
                     if (node.name == "bitzeny"){
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/logo.png";
-                            ctx.drawImage(img, pt.x - w / 0.7, pt.y - w / 0.7, 200, 200);
-                        
+                            ctx.drawImage(img, pt.x - w / 0.7, pt.y - w / 0.7, 160, 160);
                     }
                     else if (node.name == "monya") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/monya.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
-                        
-                    }
-                    else if (node.name == "twitter") {
-                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/twitter.png";
-                            ctx.drawImage(img, pt.x - w / 1.5, pt.y - w / 1.5, 70, 70);
-                        
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
                     }
                     else if (node.name == "youtube") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/Youtube.png";
@@ -69,103 +62,103 @@
                     }
                     else if (node.name == "nemchannel") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/nemchannel.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 120, 120);
-                    }
-                    else if (node.name == "jasuikei") {
-                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/jasuikei.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 120, 120);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);
                     }
                     else if (node.name == "zenyhime") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/zenyhime.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 120, 120);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);
                     }
                     else if (node.name == "zenytips") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/zenytips.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 120, 120);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);
+                    }
+                    else if (node.name == "twitter") {
+                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/twitter.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 40, 40);
                     }
                     else if (node.name == "ecservices") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/cart.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
                     }
-                    else if (node.name == "fairzenytraceshop") {
-                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/fairzenytraceshop.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 300, 110);
+                    else if (node.name == "fairzenytradeshop") {
+                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/fairzenytradeshop.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);
                     }
                     else if (node.name == "zenyportal") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/zenyportal.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 220, 100);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 110, 50);
                     }
                     else if (node.name == "stocksexchange") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/stocksexchange.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 40);
                     }
                     else if (node.name == "tradesatoshi") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/tradesatoshi.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 140, 40);
                     }
                     else if (node.name == "c-cex") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/c-cex.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 40);
                     }
                     else if (node.name == "cryptobridge") {
-                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/cryptobjige.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/cryptobridge.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "contest") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/contest.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 190, 50);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 130, 80);
                     }
                     else if (node.name == "wallet") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/wallet.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 70, 70);
                     }
                     else if (node.name == "map") {
-                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/map_pointa.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/mappin.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
-                    else if (node.name == "monamap") {
-                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/monamap.png";
+                    else if (node.name == "znymap") {
+                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/map.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
                     }
                     else if (node.name == "jaguchi") {
-                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/game.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/jaguchi.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }
                     else if (node.name == "microzeny") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/microzeny.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 280, 180);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 60, 60);
                     }
                     else if (node.name == "sukedachizeny") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/sukedachizeny.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 200, 50);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);
                     }
-                    else if (node.name == "eccservices") {
+                    else if (node.name == "ecservices") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/cart.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
                     }                         
                     else if (node.name == "tipmusic") {
-                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/tipmusic.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/Tipmusic.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 220, 50);
                     }
                     else if (node.name == "tipphoto") {
-                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/tipphoto.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/Tipphoto.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 50);
                     }
                     else if (node.name == "tipvideo") {
-                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/tipvideo.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2,150, 90);
+                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/Tipvideo.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2,220, 90);
                     }
                     else if (node.name == "tipnovel") {
-                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/tipnovel.png";
-                        ctx.drawImage(img, pt.x - w /2, pt.y - w /2, 150, 90);
+                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/Tipnovel.png";
+                        ctx.drawImage(img, pt.x - w /2, pt.y - w /2, 180, 70);
                     }
                     else if (node.name == "znyforam") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/znyforam.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 50);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 120, 50);
                     }
                     else if (node.name == "chromeattachments") {
-                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/chrome.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
+                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/Chromeattachment.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 4, 80, 80);
                     }
                     else if (node.name == "monyachrome") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/monya.png";
@@ -173,11 +166,27 @@
                     }
                     else if (node.name == "tipassist") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/tipassist.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);
                     }
                     else if (node.name == "zenythrow") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/zenythrow.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
+                    }
+                    else if (node.name == "wallet") {
+                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/wallet.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
+                    }
+                    else if (node.name == "pan") {
+                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/pan.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 60, 60);
+                    }
+                    else if (node.name == "bitzenywallet") {
+                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/bitzenywallet.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 160, 60);
+                    }
+                    else if (node.name == "monya") {
+                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/monya.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 50, 50);
                     }
                     else if (node.data.who == "tradeplaces") {
                         ctx.fillStyle = "rgba(0,0,255,0)"
@@ -330,23 +339,27 @@
         sys.addNode('zenythrow', {url: 'https://zeny-throw.takutyamu.net/'});
 
         sys.addNode('map', {});
-        sys.addNode('monamap', { url: 'https://www.google.com/maps/d/u/0/viewer?mid=1-5CuiEKDouUAzQZmkixuLbD9p9cRejmK&ll=38.55419507225843%2C137.4588139&z=6' });
+        sys.addNode('znymap', { url: 'https://www.google.com/maps/d/u/0/viewer?mid=1-5CuiEKDouUAzQZmkixuLbD9p9cRejmK&ll=38.55419507225843%2C137.4588139&z=6' });
 
         sys.addNode('twitter', {});
         sys.addNode('zenyhime', { url: 'https://twitter.com/zenyhime' });
         sys.addNode('zenytips', { url: 'https://twitter.com/zenytips' });
 
+        sys.addNode('wallet', {});
+        sys.addNode('bitzenywallet', { url: 'https://bitzeny.jp/' });
+        sys.addNode('pan', {url: "https://www.panwallet.com/"});
+        sys.addNode('monya', {url: 'https://monya-wallet.github.io/'});
+
         sys.addNode('youtube', {});
         sys.addNode('nemchannel', { url: 'https://www.youtube.com/channel/UC7xyzq_Hd72-IbJVoz4DSrQ' });
-        sys.addNode('jasuikei', { url: 'https://www.youtube.com/channel/UCt8tmsv8kL9Nc1sxvCo9j4Q' });
 
         sys.addNode('microzeny', { url: "https://microzeny.com/" });
         sys.addNode('sukedachizeny', { url: "https://zeny.bex.jp/" });
         sys.addNode('jaguchi', {});
 
         sys.addNode('ecservices', {});
-        sys.addNode('fairzenytraceshop', { url: "https://fairzenytraceshop.jp" });
-        sys.addNode('zenyportal', { url: "https://zenyportal.xyz/" });
+        sys.addNode('fairzenytradeshop', { url: "https://fairzenytradeshop.wixsite.com/fzts" });
+        sys.addNode('zenyportal', { url: "https://zenypota.net/" });
 
         sys.addNode('tipservices', {who:"tipservices"});
         sys.addNode('tipmusic', { url: "http://retoruto.php.xdomain.jp/" });
@@ -388,11 +401,15 @@
 
         sys.addEdge('bitzeny', 'ecservices');
         sys.addEdge('ecservices', 'zenyportal');
-        sys.addEdge('ecservices', 'fairzenytraceshop');
+        sys.addEdge('ecservices', 'fairzenytradeshop');
 
         sys.addEdge('bitzeny', 'youtube');
         sys.addEdge('youtube', 'nemchannel');
-        sys.addEdge('youtube', 'jasuikei');
+        
+        sys.addEdge('bitzeny', 'wallet');
+        sys.addEdge('wallet', 'bitzenywallet');
+        sys.addEdge('wallet', 'monya');
+        sys.addEdge('wallet', 'pan');
 
         sys.addEdge('bitzeny', 'chromeattachments');
         sys.addEdge('chromeattachments', 'monyachrome');
