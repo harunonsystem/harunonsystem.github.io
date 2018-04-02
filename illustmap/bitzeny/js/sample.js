@@ -157,7 +157,7 @@
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 120, 50);
                     }
                     else if (node.name == "chromeattachments") {
-                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/chromeattachment.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/Chromeattachment.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 4, 80, 80);
                     }
                     else if (node.name == "monyachrome") {
