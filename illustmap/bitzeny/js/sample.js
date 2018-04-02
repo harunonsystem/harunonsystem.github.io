@@ -86,19 +86,19 @@
                     }
                     else if (node.name == "zenyportal") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/zenyportal.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 110, 50);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 180, 80);
                     }
                     else if (node.name == "stocksexchange") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/stocksexchange.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 40);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 160, 80);
                     }
                     else if (node.name == "tradesatoshi") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/tradesatoshi.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 140, 40);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 180, 60);
                     }
                     else if (node.name == "c-cex") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/c-cex.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 40);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 160, 60);
                     }
                     else if (node.name == "cryptobridge") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/cryptobridge.png";
@@ -126,7 +126,7 @@
                     }
                     else if (node.name == "microzeny") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/microzeny.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 60, 60);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 60, 40);
                     }
                     else if (node.name == "sukedachizeny") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/sukedachizeny.png";
@@ -157,7 +157,7 @@
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 120, 50);
                     }
                     else if (node.name == "chromeattachments") {
-                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/Chromeattachment.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/chromeattachment.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 4, 80, 80);
                     }
                     else if (node.name == "monyachrome") {
