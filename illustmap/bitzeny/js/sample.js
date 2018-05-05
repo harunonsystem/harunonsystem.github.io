@@ -325,7 +325,7 @@
         var sys = arbor.ParticleSystem(300, 900, 0.8)
         sys.parameters({ gravity: true })
         sys.renderer = Renderer("#viewport")
-        sys.addNode('bitzeny', { url: "https://bitzeny.org" });
+        sys.addNode('bitzeny', { url: "https://bitzeny.tech" });
         sys.addNode('stocksexchange', { url: "https://stocks.exchange/" });
         sys.addNode('c-cex', { url: "https://c-cex.com/" });
         sys.addNode('tradesatoshi', { url: "https://tradesatoshi.com/" });
