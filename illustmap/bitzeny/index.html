@@ -9,16 +9,41 @@
     <script src="js/arbor-tween.js"></script>
     <script src="js/graphics.js"></script>
     <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+
+    <link rel="stylesheet" href="https://harunonsystem.github.io/illustmap/monacoin/css/style.css">
+
+    <link rel="stylesheet" href="https://harunonsystem.github.io/illustmap/monacoin/css/illustmap.css">
+    <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+    $(function () {
+    $('span').hover(function() {
+      $(this).next('p').show();
+    }, function(){
+      $(this).next('p').hide();
+    });
+  });</script>
+
     <title>illustmap.bitzeny</title>
 </head>
 <body>
     <div id="illustmap">
-        <h3 style="text-align:center;">イラストマップ</br><a href="https://harunonsystem.github.io/illustmap/monacoin/index.html"<p>MONAはこちら</a></p></h3>
-       <p style="text-align:center;">ドラッグ＆ドロップでぬるぬる移動・クリックすることでリンクを表示します</br>うまくリンクが表示されない場合は画像のちょっと左上をクリックしてみてください(;O;)</p>
+        <h3 style="text-align:center;">イラストマップ<br><a href="https://harunonsystem.github.io/illustmap/monacoin/index.html" target="_blank">MONAはこちら</a></h3>
+       <p style="text-align:center;">ドラッグ＆ドロップでぬるぬる移動・クリックすることでリンクを表示します<br>うまくリンクが表示されない場合は画像のちょっと左上をクリックしてみてください(;O;)</p>
         <canvas id="viewport" width="1280" height="780"></canvas>
          <script src="js/sample.js"></script>
-        <p style="text-align:center;">作成者 <a href="https://twitter.com/harunon_system">@harunon_system</a></p>
-         </div>
+         <p style="text-align:center;">作成者 <a href="https://twitter.com/harunon_system" target="_blank">@harunon_system</a><br/><a href="https://harunonsystem.github.io/profile/donate.html" target="_blank">☆寄付ページ☆</a></p>
+        </div>
 </body>
+<footer> 
+        <ul>
+        <li><a href="https://twitter.com/harunon_system" target="_blank"><span><i class="fab fa-twitter"></i></span><p class="arrow_box">\ Twitter /</p></a></li>
+        <li><a href="https://github.com/harunonsystem" target="_blank" > <span><i class="fab fa-github"></i></span><p class="arrow_box">\ GitHub /</p></a></li>
+        <li><a href="https://www.amazon.co.jp/gp/registry/wishlist/15H9T1D76B386/ref=nav_wishlist_lists_1" target="_blank" > <span><i class="fab fa-amazon"></i></span><p class="arrow_box">\ ほしいものリスト /</p></a></li>
+        <li> <a href="https://misskey.xyz/@harunon_system" target="_blank"><span><i class="fab fa-mastodon"></i></span><p class="arrow_box">\ Misskey /</p></a> </li>
+        </ul>
+    </footer>
 
 <html>
