@@ -8,3 +8,11 @@ clipboard.on('success', function(e){
 clipboard.on('error', function(e){
     alert('😨');
 });
+
+$(function () {
+    $('span').hover(function() {
+      $(this).next('p').show();
+    }, function(){
+      $(this).next('p').hide();
+    });
+  });
