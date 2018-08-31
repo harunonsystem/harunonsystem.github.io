@@ -51,17 +51,18 @@
                     if (node.name == "monacoin"){
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monacoin.png";
                             ctx.drawImage(img, pt.x - w / 0.7, pt.y - w / 0.7, 200, 200);
-                        
                     }
                     else if (node.name == "monya") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monya.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
-                        
+                    }
+                    else if (node.name == "canpayment") {
+                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/canpayment.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
                     }
                     else if (node.name == "twitter") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/aoitori.png";
                             ctx.drawImage(img, pt.x - w / 1.5, pt.y - w / 1.5, 70, 70);
-                        
                     }
                     else if (node.name == "youtube") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/Youtube.png";
@@ -203,7 +204,6 @@
                         ctx.fillStyle = "rgba(0,0,255,0)"
                         gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
                     }
-                    
                     else {
                         ctx.fillStyle = "rgba(0,0,0,0.666)"
                         gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
@@ -221,8 +221,6 @@
                     }*/
                 })
             },
-
-
             initMouseHandling: function () {
                 var dragged = null;
                 var isClick = null;
@@ -366,6 +364,7 @@
         sys.addNode('wallet',);
         sys.addNode('pan', {url: "https://www.panwallet.com/"});
         sys.addNode('monawallet', {url: "http://monawallet.net/"});
+        sys.addNode('canpayment', {url: "https://canpayment.work/"});
 
         sys.addNode('ecservices', {});
         sys.addNode('monazon', { url: "https://monazon.jp" });
@@ -386,6 +385,7 @@
         sys.addEdge('wallet', 'monya');
         sys.addEdge('wallet', 'monawallet');
         sys.addEdge('wallet', 'pan');
+        sys.addEdge('wallet', 'canpayment');
 
         sys.addEdge('monacoin', 'twitter');
         sys.addEdge('twitter', 'monacoinchan');
