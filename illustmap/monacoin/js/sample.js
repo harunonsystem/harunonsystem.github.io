@@ -76,6 +76,10 @@
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monacoinchan.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 120, 120);
                     }
+                    else if (node.name == "monatipbot") {
+                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monatipbot.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 120, 120);
+                    }
                     else if (node.name == "ecservices") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/cart.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
@@ -348,6 +352,7 @@
 
         sys.addNode('twitter', {});
         sys.addNode('monacoinchan', { url: 'https://twitter.com/tipmona' });
+        sys.addNode('monatipbot', { url: 'https://twitter.com/monatipbot'});
 
         sys.addNode('youtube', {});
         sys.addNode('nekomasu', { url: 'https://www.youtube.com/channel/UCt8tmsv8kL9Nc1sxvCo9j4Q' });
@@ -389,6 +394,7 @@
 
         sys.addEdge('monacoin', 'twitter');
         sys.addEdge('twitter', 'monacoinchan');
+        sys.addEdge('twitter', 'monatipbot');
 
         sys.addEdge('monacoin', 'monappy');
 
