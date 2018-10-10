@@ -112,6 +112,10 @@
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monappy.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 190, 50);
                     }
+                    else if (node.name == "nista") {
+                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/nista.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 190, 50);
+                    }                    
                     else if (node.name == "wallet") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/wallet.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 70, 70);
@@ -347,6 +351,8 @@
 
         sys.addNode('monabako', {url: 'https://monabako.com/#/top'});
 
+        sys.addNode('nista', {url: 'https://n-ista.org'});
+
         sys.addNode('map', {});
         sys.addNode('monamap', { url: 'https://www.google.com/maps/d/viewer?mid=13dW7cDC7eKC-OYqf8xhTTejkooId-ueF&ll=35.06939124071531%2C135.444886&z=5' });
 
@@ -397,6 +403,8 @@
         sys.addEdge('twitter', 'monatipbot');
 
         sys.addEdge('monacoin', 'monappy');
+
+        sys.addEdge('monacoin', 'nista');
 
         sys.addEdge('monacoin', 'monagame');
         sys.addEdge('monagame', 'muratamona');
