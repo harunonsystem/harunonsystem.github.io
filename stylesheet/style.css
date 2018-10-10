@@ -152,8 +152,9 @@ footer ul li{
 .dg-wrapper a img{
 	display: block;
     padding: 41px 0px 0px 1px;
-    width: 50%;
+	width: 60%;
     height: auto;
+    margin-left: 20%;
 }
 .dg-wrapper a div{
 	font-style: italic;
