@@ -92,6 +92,10 @@
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monaoku.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 220, 100);
                     }
+                    else if (node.name == "monabungu") {
+                        img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monabungu.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 220, 100);
+                    }
                     else if (node.name == "bitbank") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/bitbank.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, w, w);
@@ -380,6 +384,7 @@
         sys.addNode('ecservices', {});
         sys.addNode('monazon', { url: "https://monazon.jp" });
         sys.addNode('monaoku', { url: "https://monaoku.xyz/" });
+        sys.addNode('monabungu',{ url:"https://tomoeyasyoji.com/monabungu-woo/"});
 
         sys.addNode('tipservices', {who:"tipservices"});
         sys.addNode('tipmusic', { url: "http://retoruto.php.xdomain.jp/" });
@@ -436,6 +441,7 @@
         sys.addEdge('monacoin', 'ecservices');
         sys.addEdge('ecservices', 'monaoku');
         sys.addEdge('ecservices', 'monazon');
+        sys.addEdge('ecservices', 'monabungu');
 
         sys.addEdge('monacoin', 'youtube');
         sys.addEdge('youtube', 'nekomasu');
