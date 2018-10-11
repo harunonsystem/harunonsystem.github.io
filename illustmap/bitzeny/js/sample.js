@@ -74,7 +74,11 @@
                     }
                     else if (node.name == "twitter") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/twitter.png";
-                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 40, 40);
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 50, 40);
+                    }
+                    else if (node.name == "odairoid_001") {
+                        img.src = "../monacoin/images/odairoid_001.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);
                     }
                     else if (node.name == "ecservices") {
                         img.src = "https://harunonsystem.github.io/illustmap/bitzeny/images/cart.png";
@@ -344,6 +348,7 @@
         sys.addNode('twitter', {});
         sys.addNode('zenyhime', { url: 'https://twitter.com/zenyhime' });
         sys.addNode('zenytips', { url: 'https://twitter.com/zenytips' });
+        sys.addNode('odairoid_001', {url: 'https://twitter.com/odairoid_001'});
 
         sys.addNode('wallet', {});
         sys.addNode('bitzenywallet', { url: 'https://bitzeny.jp/' });
@@ -374,6 +379,7 @@
         sys.addEdge('bitzeny', 'twitter');
         sys.addEdge('twitter', 'zenyhime');
         sys.addEdge('twitter', 'zenytips');
+        sys.addEdge('twitter', 'odairoid_001');
 
         sys.addEdge('bitzeny', 'contest');
 
