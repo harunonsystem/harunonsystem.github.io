@@ -80,6 +80,15 @@
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/monatipbot.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 120, 120);
                     }
+                    else if (node.name == "monapachan") {
+                        img.src = "../monacoin/images/monapachan.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 120, 120);
+                    }
+                    else if (node.name == "odairoid_001") {
+                        img.src = "../monacoin/images/odairoid_001.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 120, 120);
+                    }
+
                     else if (node.name == "ecservices") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/cart.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
@@ -167,6 +176,14 @@
                     else if (node.name == "askmona") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/askmona.png";
                         ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 50);
+                    }
+                    else if (node.name == "wordpress") {
+                        img.src = "../monacoin/images/wordpress.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
+                    }
+                    else if (node.name == "monage-wp") {
+                        img.src = "../monacoin/images/monage-wp.png";
+                        ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);
                     }
                     else if (node.name == "chromeattachments") {
                         img.src = "https://harunonsystem.github.io/illustmap/monacoin/images/chrome.png";
@@ -357,12 +374,17 @@
 
         sys.addNode('nista', {url: 'https://n-ista.org'});
 
+        sys.addNode('wordpress',{});
+        sys.addNode('monage-wp', {url: 'https://ja.wordpress.org/plugins/monage/'});
+
         sys.addNode('map', {});
         sys.addNode('monamap', { url: 'https://www.google.com/maps/d/viewer?mid=13dW7cDC7eKC-OYqf8xhTTejkooId-ueF&ll=35.06939124071531%2C135.444886&z=5' });
 
         sys.addNode('twitter', {});
         sys.addNode('monacoinchan', { url: 'https://twitter.com/tipmona' });
         sys.addNode('monatipbot', { url: 'https://twitter.com/monatipbot'});
+        sys.addNode('monapachan', {url: 'https://twitter.com/monapachan'});
+        sys.addNode('odairoid_001', {url: 'https://twitter.com/odairoid_001'});
 
         sys.addNode('youtube', {});
         sys.addNode('nekomasu', { url: 'https://www.youtube.com/channel/UCt8tmsv8kL9Nc1sxvCo9j4Q' });
@@ -406,6 +428,8 @@
         sys.addEdge('monacoin', 'twitter');
         sys.addEdge('twitter', 'monacoinchan');
         sys.addEdge('twitter', 'monatipbot');
+        sys.addEdge('twitter', 'monapachan');
+        sys.addEdge('twitter', 'odairoid_001');
 
         sys.addEdge('monacoin', 'monappy');
 
@@ -437,6 +461,9 @@
         sys.addEdge('monacoin', 'askmona');
 
         sys.addEdge('monacoin', 'monabako');
+
+        sys.addEdge('monacoin', 'wordpress');
+        sys.addEdge('wordpress', 'monage-wp');
 
         sys.addEdge('monacoin', 'ecservices');
         sys.addEdge('ecservices', 'monaoku');
