@@ -2,20 +2,21 @@ html{
     background-image: radial-gradient( circle 963px at 1.9% 5%,  rgba(0,193,80,1) 0%, rgba(0,112,198,1) 100.2% );
     font-family: "Sawarabi Gothic";
     display: block;
-    width:100%;
+	width:100%;
+	height: 100%;
 }
 body{
     color: white;
     text-align: center;
 }
-
+/*
 #container{
     text-align: center;
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: auto 1fr auto;
 }
-
+*/
 footer{
     position: fixed;
     bottom: 0;
@@ -31,13 +32,6 @@ footer ul li{
     margin-right: 1em;
     text-align: center;
 }
-@media screen and ( max-width:479px )
-{
-    td{
-    padding-left:5px;
-    padding-right: 5px;
-}}
-
 /** footer balloon **/
 .arrow_box {
     display: none;
@@ -117,7 +111,7 @@ footer ul li{
 	position: relative;
 }
 .dg-wrapper{
-	width: 481px;
+	width: 90px;
 	height: 316px;
 	margin: 0 auto;
 	position: relative;
@@ -133,11 +127,11 @@ footer ul li{
 	perspective: 1000px;
 }
 .dg-wrapper a{
-	width: 482px;
-	height: 316px;
+	width: 300px;
+	height: 280px;
 	display: block;
 	position: absolute;
-	left: 0;
+	left: -100px;
 	top: 0;
 	background: transparent no-repeat top left;
 	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
@@ -152,9 +146,10 @@ footer ul li{
 .dg-wrapper a img{
 	display: block;
     padding: 41px 0px 0px 1px;
-	width: 60%;
+	width: 80%;
     height: auto;
-    margin-left: 20%;
+    margin-left: 10%;
+	margin-top: -11%;
 }
 .dg-wrapper a div{
 	font-style: italic;
@@ -175,8 +170,8 @@ footer ul li{
 	width: 58px;
 	position: absolute;
 	z-index: 1000;
-	bottom: 80px;
-	left: 50%;
+	bottom: 120px;
+	left: 48%;
 }
 .dg-container nav span{
 	text-indent: -9000px;
@@ -192,4 +187,39 @@ footer ul li{
 .dg-container nav span.dg-next{
 	background-position: top right;
 	margin-left: 20px;
+}
+@media screen and ( max-width:479px ){
+	html{
+		background-image: radial-gradient( circle 963px at 1.9% 5%,  rgba(0,193,80,1) 0%, rgba(0,112,198,1) 100.2% );
+		font-family: "Sawarabi Gothic";
+		display: block;
+		width:100%;
+	}
+	footer{
+		position: relative;
+		bottom: 0;
+		width: 100%;
+		height: 100px;
+	}
+    td{
+    padding-left:5px;
+    padding-right: 5px;
+}
+	.dg-wrapper a{
+	width: 300px;
+	height: 280px;
+	display: block;
+	position: absolute;
+	left: -100px;
+	top: 0;
+	background: transparent no-repeat top left;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+	.dg-container nav{
+	width: 58px;
+	position: absolute;
+	z-index: 1000;
+	bottom: 120px;
+	left: 40%;
+}
 }
