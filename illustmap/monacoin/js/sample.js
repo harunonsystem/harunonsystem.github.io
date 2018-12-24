@@ -405,7 +405,7 @@
 
         sys.addNode('ecservices', {});
         sys.addNode('monazon', { url: "https://monazon.jp" });
-        sys.addNode('monaoku', { url: "https://monaoku.xyz/" });
+        sys.addNode('monaoku', { url: "https://monaok.net/" });
         sys.addNode('monabungu',{ url:"https://tomoeyasyoji.com/monabungu-woo/"});
 
         sys.addNode('tipservices', {who:"tipservices"});
