@@ -281,30 +281,31 @@
         sys.parameters({ gravity: true })
         sys.renderer = Renderer("#viewport")
 
-        sys.addNode('logo', {url: ""});
+        sys.addNode('logo', {url: "https://www.kizunacoin.net/"});
         sys.addNode('teikei', {url: ""});
-        sys.addNode('bitcointalk', {url: ""});
-        sys.addNode('github', {url: ""});
-        sys.addNode('telegram', {url: ""});
-        sys.addNode('medium', {url: ""});
-        sys.addNode('discord', {url: ""});
-        sys.addNode('twitter', {url: ""});
+        sys.addNode('bitcointalk', {url: "https://bitcointalk.org/index.php?topic=4412637"});
+        sys.addNode('github', {url: "https://github.com/KIZUNACOIN"});
+        sys.addNode('telegram', {url: "https://t.me/KIZUNA_OFFICIAL"});
+        sys.addNode('medium', {url: "https://medium.com/@KIZUNA_GLOBAL_Inc"});
+        sys.addNode('discord', {url: "https://discordapp.com/invite/fmhV8Qq"});
+        sys.addNode('twitter', {url: "https://twitter.com/KIZUNA_OFFICIAL"});
         sys.addNode('youtube', {url: ""});
-        sys.addNode('shop', {url: ""});
-        sys.addNode('wnt', {url: ""});
-        sys.addNode('nextmoney', {url: ""});
-        sys.addNode('paycent', {url: ""});
-        sys.addNode('bit-z', {url: ""});
+        sys.addNode('shop', {url: "https://shop-coin.info/"});
+        sys.addNode('wnt', {url: "https://worldnuqumoritytransporters.com/"});
+        sys.addNode('nextmoney', {url: "http://nextmoney.jp/?p=14029"});
+        sys.addNode('paycent', {url: "https://jp.paycent.com/"});
+        sys.addNode('bit-z', {url: "https://www.bitz.com/exchange?lang=jp"});
         sys.addNode('bit-m', {url: ""});
-        sys.addNode('bitebtc', {url: ""});
-        sys.addNode('bittrust', {url: ""});
+        sys.addNode('bitebtc', {url: "https://bitebtc.com/trade/eth_btc"});
+        sys.addNode('bittrust', {url: "https://www.bittrust-currency.com/markets/btckiz"});
         sys.addNode('keep', {url: ""});
-        sys.addNode('kizunacoin', {url: ""});
-        sys.addNode('kizunacointoken', {url: ""});
+        sys.addNode('tsumugi', {url: ""});
+        sys.addNode('kizunacoin', {url: "https://itunes.apple.com/us/app/kizunacoin-dag-wallet/id1430843357"});
+        sys.addNode('kizunacointoken', {url: "http://kizunaglobal.com/"});
         sys.addNode('wallet', {url: ""});
         sys.addNode('game', {url: ""});
-        sys.addNode('gamee', {url: ""});
-        sys.addNode('map', {url: ""});
+        sys.addNode('gamee', {url: "https://itunes.apple.com/app/id1358164629" });
+        sys.addNode('map', {url: "https://www.kizunacoin.net/#home-kizuna-affiliated-store"});
 
         sys.addEdge('logo', 'teikei');
         sys.addEdge('teikei', 'wnt');
