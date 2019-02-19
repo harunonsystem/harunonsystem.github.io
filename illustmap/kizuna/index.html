@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!--arbor.js-->
+    <script src="js/jquery-1.6.1.min.js"></script>
+    <script src="js/jquery.address-1.4.min.js"></script>
+    <script src="js/arbor.js"></script>
+    <script src="js/arbor-tween.js"></script>
+    <script src="js/graphics.js"></script>
+    <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+
+    <link rel="stylesheet" href="https://harunonsystem.github.io/illustmap/kizuna/css/style.css">
+
+    <link rel="stylesheet" href="https://harunonsystem.github.io/illustmap/kizuna/css/illustmap.css">
+    <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+    $(function () {
+    $('span').hover(function() {
+      $(this).next('p').show();
+    }, function(){
+      $(this).next('p').hide();
+    });
+  });</script>
+
+    <title>illustmap.kizuna</title>
+</head>
+<body>
+    <div id="illustmap">
+        <h3 style="text-align:center;">イラストマップ</h3>
+       <p style="text-align:center;">ドラッグ＆ドロップでぬるぬる移動・クリックすることでリンクを表示します<br>うまくリンクが表示されない場合は画像のちょっと左上をクリックしてみてください(;O;)</p>
+        <canvas id="viewport" width="1280" height="780"></canvas>
+         <script src="js/sample.js"></script>
+         <p style="text-align:center;">作成者 <a href="https://twitter.com/harunon_system" target="_blank">@harunon_system</a><br/>
+        </div>
+</body>
+</html>
