@@ -49,115 +49,115 @@
                     //images screen
                     var img = new Image();
                     if (node.name == "logo"){
-                        img.src = "../kizuna/images/logo.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/logo.png";
                             ctx.drawImage(img, pt.x - w / 0.7, pt.y - w / 0.7, 250, 160);
                     }
                     else if (node.name == "game") {
-                        img.src = "../kizuna/images/game.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/game.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 60, 60);    
                     }
                     else if (node.name == "gamee") {
-                        img.src = "../kizuna/images/gamee.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/gamee.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "paycent") {
-                        img.src = "../kizuna/images/paycent.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/paycent.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 60);    
                     }
                     else if (node.name == "paycent2") {
-                        img.src = "../kizuna/images/paycent.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/paycent.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 60);    
                     }
                     else if (node.name == "wallet") {
-                        img.src = "../kizuna/images/wallet.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/wallet.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 60, 60);    
                     }
                     else if (node.name == "tsumugi") {
-                        img.src = "../kizuna/images/tsumugi.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/tsumugi.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
                     }
                     else if (node.name == "kizunacoin") {
-                        img.src = "../kizuna/images/kizunacoin.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/kizunacoin.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
                     }
                     else if (node.name == "kizunacointoken") {
-                        img.src = "../kizuna/images/kizunatoken.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/kizunatoken.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
                     }
                     else if (node.name == "game") {
-                        img.src = "../kizuna/images/gamee.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/gamee.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "map") {
-                        img.src = "../kizuna/images/map.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/map.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
                     }
                     else if (node.name == "wnt") {
-                        img.src = "../kizuna/images/wnt.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/wnt.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "shop") {
-                        img.src = "../kizuna/images/shop.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/shop.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "nextmoney") {
-                        img.src = "../kizuna/images/nextmoney.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/nextmoney.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "bit-z") {
-                        img.src = "../kizuna/images/bit-z.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/bit-z.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 80);    
                     }
                     else if (node.name == "bit-z2") {
-                        img.src = "../kizuna/images/bit-z.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/bit-z.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 80);    
                     }
                     else if (node.name == "bit-m") {
-                        img.src = "../kizuna/images/bit-m.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/bit-m.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 60);    
                     }
                     else if (node.name == "bittrust") {
-                        img.src = "../kizuna/images/bittrust.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/bittrust.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 80);    
                     }
                     else if (node.name == "bitebtc") {
-                        img.src = "../kizuna/images/bitebtc.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/bitebtc.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 80);    
                     }
                     else if (node.name == "keep") {
-                        img.src = "../kizuna/images/keep.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/keep.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 80);    
                     }
                     else if (node.name == "bitcointalk") {
-                        img.src = "../kizuna/images/bitcointalk.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/bitcointalk.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "medium") {
-                        img.src = "../kizuna/images/medium.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/medium.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "github") {
-                        img.src = "../kizuna/images/github.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/github.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "discord") {
-                        img.src = "../kizuna/images/discord.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/discord.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "twitter") {
-                        img.src = "../kizuna/images/twitter.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/twitter.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "youtube") {
-                        img.src = "../kizuna/images/youtube.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/youtube.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "telegram") {
-                        img.src = "../kizuna/images/telegram.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/telegram.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "teikei") {
-                        img.src = "../kizuna/images/teikei.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/teikei.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.data.who == "exchange") {
