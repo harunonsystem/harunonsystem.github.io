@@ -49,124 +49,135 @@
                     //images screen
                     var img = new Image();
                     if (node.name == "logo"){
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/logo.png";
-                            ctx.drawImage(img, pt.x - w / 0.7, pt.y - w / 0.7, 160, 160);
+                        img.src = "../kizuna/images/logo.png";
+                            ctx.drawImage(img, pt.x - w / 0.7, pt.y - w / 0.7, 250, 160);
                     }
                     else if (node.name == "game") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/game.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/game.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 60, 60);    
                     }
                     else if (node.name == "gamee") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/gamee.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/gamee.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "paycent") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/paycent.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/paycent.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 60);    
+                    }
+                    else if (node.name == "paycent2") {
+                        img.src = "../kizuna/images/paycent.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 60);    
                     }
                     else if (node.name == "wallet") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/wallet.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/wallet.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 60, 60);    
                     }
                     else if (node.name == "tsumugi") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/tsumugi.png";
+                        img.src = "../kizuna/images/tsumugi.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
                     }
                     else if (node.name == "kizunacoin") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/kizunacoin.png";
+                        img.src = "../kizuna/images/kizunacoin.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
                     }
-                    else if (node.name == "kizunatoken") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/kizunatoken.png";
+                    else if (node.name == "kizunacointoken") {
+                        img.src = "../kizuna/images/kizunatoken.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
                     }
                     else if (node.name == "game") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/gamee.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/gamee.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "map") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/map.png";
+                        img.src = "../kizuna/images/map.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
                     }
                     else if (node.name == "wnt") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/wnt.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/wnt.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "shop") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/shop.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/shop.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "nextmoney") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/nextmoney.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/nextmoney.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "bit-z") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/bit-z.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/bit-z.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 80);    
+                    }
+                    else if (node.name == "bit-z2") {
+                        img.src = "../kizuna/images/bit-z.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 80);    
                     }
                     else if (node.name == "bit-m") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/bit-m.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/bit-m.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 60);    
                     }
                     else if (node.name == "bittrust") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/bittrust.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/bittrust.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 80);    
                     }
                     else if (node.name == "bitebtc") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/bitebtc.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/bitebtc.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 80);    
                     }
                     else if (node.name == "keep") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/keep.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/keep.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 80);    
                     }
                     else if (node.name == "bitcointalk") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/bitcointalk.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/bitcointalk.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "medium") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/medium.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/medium.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "github") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/github.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/github.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "discord") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/discord.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/discord.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "twitter") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/twitter.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/twitter.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "youtube") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/youtube.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/youtube.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "telegram") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/telegram.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/telegram.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "teikei") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/teikei.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 100, 100);    
+                        img.src = "../kizuna/images/teikei.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
+                    else if (node.data.who == "exchange") {
+                        ctx.fillStyle = "rgba(0,0,255,0)"
+                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
+                    }
+                    else if (node.data.who == "media") {
+                        ctx.fillStyle = "rgba(0,0,255,0)"
+                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
+                    }
+                    else if (node.data.who == "kessai") {
+                        ctx.fillStyle = "rgba(0,0,255,0)"
+                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
+                    }
+                                                      
                     else {
                         ctx.fillStyle = "rgba(0,0,0,0.666)"
                         gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
                     }
                     nodeBoxes[node.name] = [pt.x - w / 2, pt.y - 11, w, 22]
-
-                    /* draw the text
-                    if (label) {
-                        ctx.font = "12px Helvetica"
-                        ctx.textAlign = "center"
-                        ctx.fillStyle = "white"
-                        if (node.data.color == 'none') ctx.fillStyle = '#333333'
-                        ctx.fillText(label || "", pt.x, pt.y + 4)
-                        ctx.fillText(label || "", pt.x, pt.y + 4)
-                    }*/
                 })
             },
 
@@ -289,13 +300,13 @@
         sys.addNode('medium', {url: "https://medium.com/@KIZUNA_GLOBAL_Inc"});
         sys.addNode('discord', {url: "https://discordapp.com/invite/fmhV8Qq"});
         sys.addNode('twitter', {url: "https://twitter.com/KIZUNA_OFFICIAL"});
-        sys.addNode('youtube', {url: ""});
+        sys.addNode('youtube', {url: "https://www.youtube.com/watch?v=qBrGzlSoCsk"});
         sys.addNode('shop', {url: "https://shop-coin.info/"});
         sys.addNode('wnt', {url: "https://worldnuqumoritytransporters.com/"});
         sys.addNode('nextmoney', {url: "http://nextmoney.jp/?p=14029"});
         sys.addNode('paycent', {url: "https://jp.paycent.com/"});
         sys.addNode('bit-z', {url: "https://www.bitz.com/exchange?lang=jp"});
-        sys.addNode('bit-m', {url: ""});
+        sys.addNode('bit-m', {url: "https://www.bit-m.com/"});
         sys.addNode('bitebtc', {url: "https://bitebtc.com/trade/eth_btc"});
         sys.addNode('bittrust', {url: "https://www.bittrust-currency.com/markets/btckiz"});
         sys.addNode('keep', {url: ""});
@@ -306,12 +317,15 @@
         sys.addNode('game', {url: ""});
         sys.addNode('gamee', {url: "https://itunes.apple.com/app/id1358164629" });
         sys.addNode('map', {url: "https://www.kizunacoin.net/#home-kizuna-affiliated-store"});
+        sys.addNode('kessai', {who: "kessai"});
+        sys.addNode('exchange', {who: "exchange"});
+        sys.addNode('media', {who: "media"});
 
         sys.addEdge('logo', 'teikei');
         sys.addEdge('teikei', 'wnt');
         sys.addEdge('teikei', 'shop');
         sys.addEdge('teikei','nextmoney');
-        sys.addEdge('teikei','bit-z');
+        sys.addEdge('teikei','bit-z2');
         sys.addEdge('teikei','paycent');
 
         sys.addEdge('logo','game');
@@ -319,7 +333,7 @@
 
         sys.addEdge('logo','kessai');
         sys.addEdge('kessai','map');
-        sys.addEdge('kessai','paycent');
+        sys.addEdge('kessai','paycent2');
 
         sys.addEdge('logo','exchange');
         sys.addEdge('exchange','bit-m');
@@ -339,7 +353,7 @@
 
         sys.addEdge('logo','wallet');
         sys.addEdge('wallet','kizunacoin');
-        sys.addEdge('wallet','kizunatoken');
+        sys.addEdge('wallet','kizunacointoken');
         sys.addEdge('wallet','tsumugi');
 
     })
