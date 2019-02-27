@@ -20,6 +20,15 @@
                 that.initMouseHandling()
             },
             redraw: function () {
+                /*
+                var bgimg = new Image();
+                bgimg.src = "https://harunonsystem.github.io/illustmap/kizuna/images/background.png";
+                bgimg.onload = function(){
+                var pattern = context.create.Pattern(bgimg, 'repeat');
+                ctx.fillStyle = pattern;
+                ctx.fillRect(0, 0, canvas.width, canvas.height)
+                ctx.fill();
+                },*/
                 ctx.fillStyle = "white"
                 ctx.fillRect(0, 0, canvas.width, canvas.height)
 
@@ -50,7 +59,7 @@
                     var img = new Image();
                     if (node.name == "logo"){
                         img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/logo.png";
-                            ctx.drawImage(img, pt.x - w / 0.7, pt.y - w / 0.7, 250, 160);
+                            ctx.drawImage(img, pt.x - w / 0.4, pt.y - w / 0.3, 200, 200);
                     }
                     else if (node.name == "game") {
                         img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/game.png";
@@ -145,7 +154,7 @@
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "twitter") {
-                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/twitter.png";
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/tweet.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
                     else if (node.name == "youtube") {
@@ -160,19 +169,18 @@
                         img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/teikei.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
                     }
-                    else if (node.data.who == "exchange") {
-                        ctx.fillStyle = "rgba(0,0,255,0)"
-                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
+                    else if (node.name == "media") {
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/media.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 60, 60);    
                     }
-                    else if (node.data.who == "media") {
-                        ctx.fillStyle = "rgba(0,0,255,0)"
-                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
+                    else if (node.name == "exchange") {
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/exchange.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 60, 60);    
                     }
-                    else if (node.data.who == "kessai") {
-                        ctx.fillStyle = "rgba(0,0,255,0)"
-                        gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
+                    else if (node.name == "kessai") {
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/cart.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 60, 60);    
                     }
-                                                      
                     else {
                         ctx.fillStyle = "rgba(0,0,0,0.666)"
                         gfx.oval(pt.x - w / 2, pt.y - w / 2, w, w, { fill: ctx.fillStyle })
@@ -292,7 +300,7 @@
         sys.parameters({ gravity: true })
         sys.renderer = Renderer("#viewport")
 
-        sys.addNode('logo', {url: "https://www.kizunacoin.net/"});
+        sys.addNode('logo', {url: "https://www.kizunacoin.net/#home-kizuna-faq"});
         sys.addNode('teikei', {url: ""});
         sys.addNode('bitcointalk', {url: "https://bitcointalk.org/index.php?topic=4412637"});
         sys.addNode('github', {url: "https://github.com/KIZUNACOIN"});
@@ -305,9 +313,9 @@
         sys.addNode('wnt', {url: "https://worldnuqumoritytransporters.com/"});
         sys.addNode('nextmoney', {url: "http://nextmoney.jp/?p=14029"});
         sys.addNode('paycent', {url: "https://jp.paycent.com/"});
-        sys.addNode('bit-z', {url: "https://www.bitz.com/exchange?lang=jp"});
+        sys.addNode('bit-z', {url: "https://www.bitz.com/exchange/kiz_btc"});
         sys.addNode('bit-m', {url: "https://www.bit-m.com/"});
-        sys.addNode('bitebtc', {url: "https://bitebtc.com/trade/eth_btc"});
+        sys.addNode('bitebtc', {url: "https://bitebtc.com/trade/kiz_btc"});
         sys.addNode('bittrust', {url: "https://www.bittrust-currency.com/markets/btckiz"});
         sys.addNode('keep', {url: ""});
         sys.addNode('tsumugi', {url: ""});
@@ -317,9 +325,9 @@
         sys.addNode('game', {url: ""});
         sys.addNode('gamee', {url: "https://itunes.apple.com/app/id1358164629" });
         sys.addNode('map', {url: "https://www.kizunacoin.net/#home-kizuna-affiliated-store"});
-        sys.addNode('kessai', {who: "kessai"});
-        sys.addNode('exchange', {who: "exchange"});
-        sys.addNode('media', {who: "media"});
+        sys.addNode('kessai', {url: ""});
+        sys.addNode('exchange', {url: ""});
+        sys.addNode('media', {url: ""});
 
         sys.addEdge('logo', 'teikei');
         sys.addEdge('teikei', 'wnt');
