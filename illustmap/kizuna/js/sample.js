@@ -155,7 +155,7 @@
                     }
                     else if (node.name == "twitter") {
                         img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/tweet.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);
                     }
                     else if (node.name == "youtube") {
                         img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/youtube.png";
@@ -313,7 +313,9 @@
         sys.addNode('wnt', {url: "https://worldnuqumoritytransporters.com/"});
         sys.addNode('nextmoney', {url: "http://nextmoney.jp/?p=14029"});
         sys.addNode('paycent', {url: "https://jp.paycent.com/"});
+        sys.addNode('paycent2', {url: "https://jp.paycent.com/"});
         sys.addNode('bit-z', {url: "https://www.bitz.com/exchange/kiz_btc"});
+        sys.addNode('bit-z2', {url: "https://www.bitz.com/exchange/kiz_btc"});
         sys.addNode('bit-m', {url: "https://www.bit-m.com/"});
         sys.addNode('bitebtc', {url: "https://bitebtc.com/trade/kiz_btc"});
         sys.addNode('bittrust', {url: "https://www.bittrust-currency.com/markets/btckiz"});
