@@ -123,7 +123,7 @@
                     }
                     else if (node.name == "bit-m") {
                         img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/bit-m.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 60);    
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 40);    
                     }
                     else if (node.name == "bittrust") {
                         img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/bittrust.png";
@@ -135,7 +135,7 @@
                     }
                     else if (node.name == "keep") {
                         img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/keep.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 80);    
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 50);    
                     }
                     else if (node.name == "bitcointalk") {
                         img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/bitcointalk.png";
