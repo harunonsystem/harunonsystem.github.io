@@ -28,13 +28,16 @@
                 ctx.fillStyle = pattern;
                 ctx.fillRect(0, 0, canvas.width, canvas.height)
                 ctx.fill();
-                },*/
+                },
+                ctx.fillStyle = 'background-image:url("https://harunonsystem.github.io/illustmap/kizuna/images/background.png")';
+                */
+                //ctx.fillStyle = "rgba(0,0,0,0)"
                 ctx.fillStyle = "white"
                 ctx.fillRect(0, 0, canvas.width, canvas.height)
 
                 particleSystem.eachEdge(function (edge, pt1, pt2) {
-                    ctx.strokeStyle = "rgba(0,0,0, .333)"
-                    ctx.lineWidth = 1
+                    ctx.strokeStyle = "rgba(0,0,0,0.8)"
+                    ctx.lineWidth = 0.1
                     ctx.beginPath()
                     ctx.moveTo(pt1.x, pt1.y)
                     ctx.lineTo(pt2.x, pt2.y)
@@ -137,9 +140,13 @@
                         img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/keep.png";
                             ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 50);    
                     }
+                    else if (node.name == "coineal") {
+                        img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/coineal.png";
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 150, 50);    
+                    }
                     else if (node.name == "bitcointalk") {
                         img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/bitcointalk.png";
-                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 80);    
+                            ctx.drawImage(img, pt.x - w / 2, pt.y - w / 2, 80, 90);    
                     }
                     else if (node.name == "medium") {
                         img.src = "https://harunonsystem.github.io/illustmap/kizuna/images/medium.png";
@@ -320,8 +327,9 @@
         sys.addNode('bitebtc', {url: "https://bitebtc.com/trade/kiz_btc"});
         sys.addNode('bittrust', {url: "https://www.bittrust-currency.com/markets/btckiz"});
         sys.addNode('keep', {url: ""});
+        sys.addNode('coineal',{url: "https://www.coineal.com/ieo.html#en_US"});
         sys.addNode('tsumugi', {url: ""});
-        sys.addNode('kizunacoin', {url: "https://itunes.apple.com/us/app/kizunacoin-dag-wallet/id1430843357"});
+        sys.addNode('kizunacoin', {url: "https://www.kizunacoin.net/#home-kizunacoin-wallet"});
         sys.addNode('kizunacointoken', {url: "http://kizunaglobal.com/"});
         sys.addNode('wallet', {url: ""});
         sys.addNode('game', {url: ""});
@@ -351,6 +359,7 @@
         sys.addEdge('exchange','bittrust');
         sys.addEdge('exchange','bitebtc');
         sys.addEdge('exchange','keep');
+        sys.addEdge('exchange', 'coineal');
 
         sys.addEdge('logo','media');
         sys.addEdge('media','bitcointalk');
