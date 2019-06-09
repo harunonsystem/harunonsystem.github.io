@@ -409,7 +409,7 @@
         sys.addNode('monabungu',{ url:"https://tomoeyasyoji.com/monabungu-woo/"});
 
         sys.addNode('tipservices', {who:"tipservices"});
-        sys.addNode('tipmusic', { url: "http://retoruto.php.xdomain.jp/" });
+        sys.addNode('tipmusic', { url: "https://tipmusics.com/" });
         sys.addNode('tipvideo', { url: "https://www.tip-video.net/index.php" });
         sys.addNode('tipphoto', { url: "http://tipphoto.takutyamu.net/" });
         sys.addNode('tipnovel', { url: "https://tipnovel.taillook.tech/" });
